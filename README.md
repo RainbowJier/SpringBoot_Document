@@ -4,10 +4,15 @@
 
 🔳✅
 
-1. ✅ Application properties.
-2. ✅ SpringBoot integrates with other frameworks.
-3. 🔳Hot Deploy
-4.
+1. ✅Configuration
+    - ✅Application properties.
+    - ✅Multiple Environments to development and production.
+    - ✅Hot Deploy
+    - ✅Log
+5. Database
+    - Redis
+    - Mybatis-plus
+5.
 
 100. **Integrate**(整合、集成) content jump links.
 
