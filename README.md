@@ -9,10 +9,11 @@
     - ✅Multiple Environments to development and production.
     - ✅Hot Deploy
     - ✅Log
-5. Database
-    - Redis
-    - Mybatis-plus
-5.
+2. Database
+    - ✅Redis
+    - ✅Mybatis-plus
+3. Development
+    - Process of handling request(Filter, Interceptor, Servlet)
 
 100. **Integrate**(整合、集成) content jump links.
 
