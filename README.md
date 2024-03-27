@@ -13,7 +13,9 @@
     - ✅Redis
     - ✅Mybatis-plus
 3. Development
-    - Process of handling request(Filter, Interceptor, Servlet)
+    - ✅Filter
+    - Interceptor
+    -
 
 100. **Integrate**(整合、集成) content jump links.
 
