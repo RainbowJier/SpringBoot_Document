@@ -15,6 +15,7 @@
 3. Development
     - ✅Filter
     - ✅Interceptor
+    - ✅CORS
     - Unified Response
 
 100. `Integrate`(整合、集成) content jump links.
