@@ -17,5 +17,5 @@
     - ✅Interceptor
     - Unified Response
 
-100. **Integrate**(整合、集成) content jump links.
+100. `Integrate`(整合、集成) content jump links.
 
