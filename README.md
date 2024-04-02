@@ -7,6 +7,7 @@
     - ✅Multiple Environments to development and production.
     - ✅Hot Deploy
     - ✅Log
+    - ✅Email
 
 2. **Database**
     - ✅Redis
@@ -22,6 +23,5 @@
 ## 🙏Todo List
 
 - [ ] Multiple Environments to development and production.
-- [ ] Email
 - [ ] Swagger
 - [ ] Source Code.
