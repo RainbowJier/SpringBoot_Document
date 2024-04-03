@@ -4,7 +4,6 @@
 
 1. **Configuration**
     - ✅Application properties.
-    - ✅Multiple Environments to development and production.
     - ✅Hot Deploy
     - ✅Log
     - ✅Email
