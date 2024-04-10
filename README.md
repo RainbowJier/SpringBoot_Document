@@ -7,6 +7,8 @@
     - ✅Hot Deploy
     - ✅Log
     - ✅Email
+    - ✅Swagger
+
 
 2. **Database**
     - ✅Redis
@@ -22,5 +24,4 @@
 ## 🙏Todo List
 
 - [ ] Multiple Environments to development and production.
-- [ ] Swagger
 - [ ] Source Code.
