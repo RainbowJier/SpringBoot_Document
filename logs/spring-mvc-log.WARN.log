@@ -1,0 +1,219 @@
+2024-04-01 14:01:03.034 | WARN  | restartedMain | o.s.b.a.s.s.UserDetailsServiceAutoConfiguration >>>>> 
+
+Using generated security password: d1bfb631-de21-4163-aa4a-2c8e3455a934
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-04-01 14:02:09.338 | WARN  | restartedMain | o.s.b.a.s.s.UserDetailsServiceAutoConfiguration >>>>> 
+
+Using generated security password: 345ffae8-9d7b-4279-827f-74243db45aec
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-04-01 14:03:13.042 | WARN  | restartedMain | o.s.b.a.s.s.UserDetailsServiceAutoConfiguration >>>>> 
+
+Using generated security password: d2e6edb8-07b9-4320-af34-929295df4f44
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-04-01 14:03:14.726 | WARN  | restartedMain | o.s.b.a.s.s.UserDetailsServiceAutoConfiguration >>>>> 
+
+Using generated security password: 0b37b864-e82c-488e-8ddd-c233b3bc3fe4
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-04-01 14:04:44.754 | WARN  | restartedMain | o.s.b.a.s.s.UserDetailsServiceAutoConfiguration >>>>> 
+
+Using generated security password: 3194734f-20b2-489e-91a3-e5e98b8e06dd
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-04-01 14:05:58.554 | WARN  | restartedMain | o.s.b.a.s.s.UserDetailsServiceAutoConfiguration >>>>> 
+
+Using generated security password: 5d237547-8926-4960-abb5-d5a8fa1d3464
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-04-01 14:06:40.793 | WARN  | restartedMain | o.s.b.SpringApplication >>>>> Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.example.SpringBoot_Test.Configuration.RedisConfiguration] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@690c2759]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:361) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:418) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.19.jar:5.3.19]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660) ~[?:1.8.0_392]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:667) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1300) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:873) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:861) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:848) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:788) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.7.jar:2.6.7]
+	at com.example.SpringBoot_Test.SpringBoot_TestApplication.main(SpringBoot_TestApplication.java:11) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_392]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_392]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_392]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_392]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.7.jar:2.6.7]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/data/redis/connection/RedisConnectionFactory
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:1.8.0_392]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2729) ~[?:1.8.0_392]
+	at java.lang.Class.getDeclaredMethods(Class.java:2003) ~[?:1.8.0_392]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467) ~[spring-core-5.3.19.jar:5.3.19]
+	... 26 more
+Caused by: java.lang.ClassNotFoundException: org.springframework.data.redis.connection.RedisConnectionFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387) ~[?:1.8.0_392]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_392]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352) ~[?:1.8.0_392]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_392]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_392]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_392]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.6.7.jar:2.6.7]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_392]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:1.8.0_392]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2729) ~[?:1.8.0_392]
+	at java.lang.Class.getDeclaredMethods(Class.java:2003) ~[?:1.8.0_392]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467) ~[spring-core-5.3.19.jar:5.3.19]
+	... 26 more
+2024-04-01 14:07:49.369 | WARN  | restartedMain | o.s.b.a.s.s.UserDetailsServiceAutoConfiguration >>>>> 
+
+Using generated security password: 4070e371-859a-4b4d-82c0-94cb26a2e4cc
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-04-01 14:09:59.011 | WARN  | restartedMain | o.s.b.SpringApplication >>>>> Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.example.SpringBoot_Test.Configuration.RedisConfiguration] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2706a296]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:361) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:418) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.19.jar:5.3.19]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660) ~[?:1.8.0_392]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:667) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1300) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:873) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:861) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:848) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:788) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.7.jar:2.6.7]
+	at com.example.SpringBoot_Test.SpringBoot_TestApplication.main(SpringBoot_TestApplication.java:11) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_392]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_392]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_392]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_392]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.7.jar:2.6.7]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/data/redis/connection/RedisConnectionFactory
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:1.8.0_392]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2729) ~[?:1.8.0_392]
+	at java.lang.Class.getDeclaredMethods(Class.java:2003) ~[?:1.8.0_392]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467) ~[spring-core-5.3.19.jar:5.3.19]
+	... 26 more
+Caused by: java.lang.ClassNotFoundException: org.springframework.data.redis.connection.RedisConnectionFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387) ~[?:1.8.0_392]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_392]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352) ~[?:1.8.0_392]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_392]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_392]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_392]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.6.7.jar:2.6.7]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_392]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:1.8.0_392]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2729) ~[?:1.8.0_392]
+	at java.lang.Class.getDeclaredMethods(Class.java:2003) ~[?:1.8.0_392]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467) ~[spring-core-5.3.19.jar:5.3.19]
+	... 26 more
+2024-04-01 14:10:00.495 | WARN  | restartedMain | o.s.b.SpringApplication >>>>> Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.example.SpringBoot_Test.Configuration.RedisConfiguration] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2b1cf54]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:361) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:418) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.19.jar:5.3.19]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660) ~[?:1.8.0_392]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:667) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1300) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:873) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:861) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:848) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:788) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.7.jar:2.6.7]
+	at com.example.SpringBoot_Test.SpringBoot_TestApplication.main(SpringBoot_TestApplication.java:11) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_392]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_392]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_392]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_392]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.7.jar:2.6.7]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/data/redis/connection/RedisConnectionFactory
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:1.8.0_392]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2729) ~[?:1.8.0_392]
+	at java.lang.Class.getDeclaredMethods(Class.java:2003) ~[?:1.8.0_392]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467) ~[spring-core-5.3.19.jar:5.3.19]
+	... 26 more
+Caused by: java.lang.ClassNotFoundException: org.springframework.data.redis.connection.RedisConnectionFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387) ~[?:1.8.0_392]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_392]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352) ~[?:1.8.0_392]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_392]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_392]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_392]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.6.7.jar:2.6.7]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_392]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:1.8.0_392]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2729) ~[?:1.8.0_392]
+	at java.lang.Class.getDeclaredMethods(Class.java:2003) ~[?:1.8.0_392]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467) ~[spring-core-5.3.19.jar:5.3.19]
+	... 26 more
+2024-04-01 14:10:53.925 | WARN  | restartedMain | o.s.b.a.s.s.UserDetailsServiceAutoConfiguration >>>>> 
+
+Using generated security password: 93463297-5a0b-402b-a04b-e68e0277d39f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-04-01 14:12:11.878 | WARN  | restartedMain | o.s.b.a.s.s.UserDetailsServiceAutoConfiguration >>>>> 
+
+Using generated security password: 463ee3b1-4801-4452-a217-b3c303c5a673
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-04-01 14:12:13.609 | WARN  | restartedMain | o.s.b.a.s.s.UserDetailsServiceAutoConfiguration >>>>> 
+
+Using generated security password: 561b7f74-348b-4209-b20c-bfbcda914894
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-04-01 14:12:18.371 | WARN  | restartedMain | o.s.b.a.s.s.UserDetailsServiceAutoConfiguration >>>>> 
+
+Using generated security password: 51cfb37a-c18c-4c9b-a860-196b03aa3204
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-04-01 14:12:20.058 | WARN  | restartedMain | o.s.b.a.s.s.UserDetailsServiceAutoConfiguration >>>>> 
+
+Using generated security password: 49a225b8-3687-42d0-9dc3-16c36f57fc2a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
