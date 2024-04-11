@@ -8,11 +8,12 @@
     - ✅Log
     - ✅Email
     - ✅Swagger
-
+    - ✅Multiple Environments to development and production.
 
 2. **Database**
     - ✅Redis
     - ✅Mybatis-plus
+    -
 3. **Development**
     - ✅Filter
     - ✅Interceptor
@@ -21,7 +22,6 @@
     - ✅JWT
     - ✅Unified Exception Handling.
 
-## 🙏Todo List
+## 🪓Todo List
 
-- [ ] Multiple Environments to development and production.
 - [ ] Source Code.
